@@ -1,0 +1,82 @@
+/* index.css */
+.styled-container {
+  margin-top: 60px; /* Added space from the top of the browser */
+  padding: 8px;
+  background-color: #f9f9f9;
+}
+
+.styled-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px;
+  transition: box-shadow 0.3s;
+  margin: auto; /* Center the card horizontally */
+  width: 60%; /* Reduced the overall width of the card to 50% */
+}
+
+.styled-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.styled-pagination {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.product-name {
+  padding-left: 16px;
+}
+
+.styled-image {
+  flex: 1;
+  max-width: 60%; /* Increased max-width to make the image box larger */
+  height: auto;
+  object-fit: contain;
+  border-right: 1px solid #ddd;
+  margin-right: 8px;
+}
+
+.styled-details {
+  flex: 1;
+  max-width: 40%; /* Reduced max-width to make the details box smaller */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 8px;
+}
+
+.styled-button {
+  margin-top: 8px;
+}
+
+.styled-search-bar {
+  margin-bottom: 16px;
+}
+
+.styled-error-message {
+  margin: 16px 0;
+}
+
+.styled-table-headers {
+  display: flex;
+  padding: 16px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.styled-table-row {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.styled-form-control {
+  margin-right: 16px;
+}
