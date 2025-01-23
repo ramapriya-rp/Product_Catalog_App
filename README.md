@@ -1,4 +1,4 @@
-Backend code: Java Springboot using maven
+Backend code: Java Springboot using maven. 
 Frontend code: React and Typescript
 
 Execution steps:
