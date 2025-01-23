@@ -1,0 +1,444 @@
+2025-01-23T12:37:04.598+05:30  INFO 10208 --- [productcatalog] [main] c.r.p.ProductcatalogApplication          : Starting ProductcatalogApplication v1.0.0 using Java 17.0.12 with PID 10208 (D:\Intellij\Workspace\productcatalog\target\productcatalog-1.0.0.jar started by HP in D:\Intellij\Workspace\productcatalog\target)
+2025-01-23T12:37:04.603+05:30  INFO 10208 --- [productcatalog] [main] c.r.p.ProductcatalogApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-01-23T12:37:07.921+05:30  INFO 10208 --- [productcatalog] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-23T12:37:07.968+05:30  INFO 10208 --- [productcatalog] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-23T12:37:07.968+05:30  INFO 10208 --- [productcatalog] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-23T12:37:08.030+05:30  INFO 10208 --- [productcatalog] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-23T12:37:08.030+05:30  INFO 10208 --- [productcatalog] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3213 ms
+2025-01-23T12:37:08.218+05:30  INFO 10208 --- [productcatalog] [main] c.r.p.controller.ProductController       : No of products loaded successfully is : 14
+2025-01-23T12:37:08.218+05:30  INFO 10208 --- [productcatalog] [main] c.r.p.controller.ProductController       : Product data loaded successfully
+2025-01-23T12:37:10.868+05:30  INFO 10208 --- [productcatalog] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-23T12:37:10.977+05:30  INFO 10208 --- [productcatalog] [main] c.r.p.ProductcatalogApplication          : Started ProductcatalogApplication in 7.659 seconds (process running for 9.04)
+2025-01-23T12:54:44.987+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23T12:54:45.489+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-23T12:54:47.324+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1835 ms
+2025-01-23T12:54:53.631+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T12:54:53.631+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T12:54:53.631+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T12:54:53.772+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T12:54:53.803+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T12:54:53.803+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T13:01:26.834+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T13:01:26.834+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T13:01:26.834+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T13:03:16.430+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T13:03:16.462+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T13:03:16.462+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T13:03:17.696+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T13:03:17.696+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T13:03:17.696+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T13:03:20.571+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T13:03:20.571+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T13:03:20.571+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T13:03:20.696+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T13:03:20.696+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T13:03:20.712+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T13:03:44.145+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: ikea
+2025-01-23T13:03:49.160+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : matched products: 1
+2025-01-23T14:14:48.856+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T14:14:48.856+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T14:14:48.856+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T14:14:49.106+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T14:14:49.106+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T14:14:49.106+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T14:15:56.720+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T14:15:56.720+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T14:15:56.735+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T14:15:56.899+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T14:15:56.899+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T14:15:56.915+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T14:16:14.972+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T14:16:14.972+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T14:16:14.972+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T14:16:15.003+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T14:16:15.019+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T14:16:15.019+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T14:16:19.015+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: e
+2025-01-23T14:16:19.062+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : matched products: 12
+2025-01-23T14:16:19.718+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: ek
+2025-01-23T14:16:19.733+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : matched products: 2
+2025-01-23T14:50:36.512+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T14:50:36.512+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T14:50:37.386+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T14:50:37.386+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T14:50:37.520+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T14:50:37.520+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T14:51:08.624+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T14:51:08.624+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T14:51:08.624+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T14:51:10.624+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T14:51:10.624+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T14:51:10.897+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T14:51:39.065+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: ik
+2025-01-23T14:51:41.897+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: ikea
+2025-01-23T14:51:46.540+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : matched products: 1
+2025-01-23T14:55:29.913+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T14:55:29.919+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T14:55:29.990+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T14:55:30.055+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T14:55:30.061+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T14:55:30.064+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T14:57:31.278+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T14:57:31.278+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T14:57:31.278+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T14:57:31.654+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T14:57:31.654+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T14:57:31.654+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:03:45.987+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:03:45.987+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:03:47.467+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:03:47.526+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:03:47.582+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:03:47.582+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:03:49.325+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:03:49.325+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:03:49.341+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:03:49.497+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:03:49.544+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:03:49.544+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:08:19.034+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:08:19.034+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:08:19.034+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:08:19.826+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:08:19.893+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:08:19.893+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:08:26.833+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:08:26.834+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:08:26.837+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:08:27.488+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:08:27.526+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:08:27.526+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:14:46.413+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:14:46.595+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:14:46.699+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:20:23.059+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:20:23.461+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:20:23.478+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:22:46.853+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:22:46.940+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:22:46.974+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:41:59.052+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:41:59.052+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:42:03.130+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:42:03.130+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:42:03.974+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:42:03.974+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:57:00.488+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:57:01.844+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:57:00.488+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:57:04.539+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:57:04.539+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:57:04.539+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:57:05.542+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:57:05.542+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:57:05.542+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:57:09.930+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:57:10.071+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Page No: 0 page Size: 5
+2025-01-23T15:57:10.071+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:57:18.013+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:57:18.013+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:57:18.029+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:57:18.165+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:57:18.226+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Page No: 0 page Size: 5
+2025-01-23T15:57:18.230+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:57:44.614+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:57:44.614+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:57:44.616+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T15:57:45.175+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T15:57:45.245+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T15:57:45.245+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:04:54.169+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:04:54.169+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:05:03.221+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:04:53.528+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: bed
+2025-01-23T16:04:54.169+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:05:06.943+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:05:06.943+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:05:06.943+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:05:06.943+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:05:07.996+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: ikea
+2025-01-23T16:05:09.401+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:05:09.401+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:05:09.401+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:05:09.401+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:05:16.019+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : matched products: 3
+2025-01-23T16:05:28.188+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:05:28.329+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:05:28.329+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:08:58.056+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: ik
+2025-01-23T16:08:58.322+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: i
+2025-01-23T16:08:58.353+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : matched products: 5
+2025-01-23T16:08:58.510+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:08:58.526+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:08:58.541+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:08:58.791+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:08:58.901+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:08:58.932+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:09:01.010+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: t
+2025-01-23T16:09:01.010+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : matched products: 6
+2025-01-23T16:09:01.541+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: tab
+2025-01-23T16:09:01.619+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : matched products: 2
+2025-01-23T16:09:02.151+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: table
+2025-01-23T16:09:02.198+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : matched products: 2
+2025-01-23T16:09:03.957+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: tab
+2025-01-23T16:09:04.598+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: ta
+2025-01-23T16:09:04.629+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : matched products: 2
+2025-01-23T16:09:05.036+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: t
+2025-01-23T16:09:06.866+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:09:06.866+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:09:06.882+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:09:07.147+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:09:07.210+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:09:07.210+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:09:10.382+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: ingetorp
+2025-01-23T16:09:10.382+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: ingetor
+2025-01-23T16:09:10.382+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : matched products: 1
+2025-01-23T16:09:10.382+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : matched products: 1
+2025-01-23T16:09:11.882+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: inge
+2025-01-23T16:09:11.928+05:30 ERROR 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : ATTENTION!!! No matched products found
+2025-01-23T16:09:15.522+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: ingetor
+2025-01-23T16:09:15.975+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: ingeto
+2025-01-23T16:09:15.975+05:30 ERROR 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : ATTENTION!!! No matched products found
+2025-01-23T16:09:16.788+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: inget
+2025-01-23T16:09:16.819+05:30 ERROR 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : ATTENTION!!! No matched products found
+2025-01-23T16:09:18.296+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: inge
+2025-01-23T16:09:19.905+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: ing
+2025-01-23T16:09:20.046+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : matched products: 1
+2025-01-23T16:09:20.296+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: in
+2025-01-23T16:09:20.327+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : matched products: 2
+2025-01-23T16:09:21.999+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: i
+2025-01-23T16:09:22.903+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:09:22.903+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:09:22.903+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:09:23.153+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:09:23.153+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:09:23.153+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:11:58.596+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:11:58.596+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:11:58.596+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:11:58.689+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:11:58.689+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:11:58.689+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:12:03.421+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:12:03.421+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:12:03.421+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:12:03.452+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:12:03.452+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:12:03.452+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:12:13.117+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:12:13.133+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:12:13.133+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:12:13.211+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:12:13.211+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:12:13.227+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:12:55.139+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: b
+2025-01-23T16:12:55.139+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : matched products: 7
+2025-01-23T16:12:55.733+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: be
+2025-01-23T16:12:55.748+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : matched products: 4
+2025-01-23T16:12:56.530+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: bed
+2025-01-23T16:13:00.811+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:13:00.811+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:13:00.827+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:13:02.608+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:13:02.717+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:13:02.749+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:13:03.137+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: table
+2025-01-23T16:13:05.168+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:13:05.183+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:13:05.183+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:13:08.683+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:13:08.683+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:13:08.683+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:15:35.111+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:15:35.111+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:15:35.111+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:21:03.421+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:21:04.358+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:21:04.530+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:21:06.483+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:21:06.608+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:21:06.608+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:21:11.877+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:21:11.877+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:21:11.877+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:21:11.908+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:21:11.924+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:21:11.924+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:21:16.596+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:21:16.596+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:21:16.627+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:21:17.221+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:21:17.299+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:21:17.299+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:24:58.742+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:24:58.773+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:24:58.773+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:25:43.382+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:25:43.397+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:25:43.428+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:25:43.585+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:25:43.585+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:25:43.585+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:28:14.127+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:28:14.127+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:28:14.228+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:28:14.328+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:28:14.344+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:28:14.344+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:28:30.393+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:28:30.393+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:28:30.393+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:28:30.487+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:28:30.581+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:28:30.596+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:28:57.191+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:28:57.191+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:28:57.191+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:28:57.379+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:28:57.379+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:28:57.379+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:29:02.727+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: pr
+2025-01-23T16:29:03.008+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: pro
+2025-01-23T16:29:04.524+05:30 ERROR 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : ATTENTION!!! No matched products found
+2025-01-23T16:29:04.524+05:30 ERROR 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : ATTENTION!!! No matched products found
+2025-01-23T16:29:06.508+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: pr
+2025-01-23T16:29:07.774+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: priy
+2025-01-23T16:29:07.821+05:30 ERROR 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : ATTENTION!!! No matched products found
+2025-01-23T16:29:08.399+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: priya
+2025-01-23T16:29:08.492+05:30 ERROR 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : ATTENTION!!! No matched products found
+2025-01-23T16:29:11.635+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: p
+2025-01-23T16:29:11.729+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:29:11.744+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:29:11.744+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:29:11.729+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : matched products: 3
+2025-01-23T16:29:11.989+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:29:11.989+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:29:11.989+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:29:13.688+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: ike
+2025-01-23T16:29:13.688+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : matched products: 1
+2025-01-23T16:29:14.250+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: ikea
+2025-01-23T16:29:15.972+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: i
+2025-01-23T16:29:16.191+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:29:16.191+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:29:16.207+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:29:16.441+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:29:16.441+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:29:16.441+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:29:22.128+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: p
+2025-01-23T16:29:30.363+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:29:30.363+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:29:31.066+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:29:32.659+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:29:32.659+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:29:32.909+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:29:39.185+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: va
+2025-01-23T16:29:39.247+05:30 ERROR 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : ATTENTION!!! No matched products found
+2025-01-23T16:29:40.982+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: vam
+2025-01-23T16:29:40.982+05:30 ERROR 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : ATTENTION!!! No matched products found
+2025-01-23T16:29:41.872+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: vamla
+2025-01-23T16:29:41.888+05:30 ERROR 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : ATTENTION!!! No matched products found
+2025-01-23T16:29:45.278+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: vaml
+2025-01-23T16:29:45.325+05:30 ERROR 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : ATTENTION!!! No matched products found
+2025-01-23T16:29:45.591+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:29:45.591+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:29:45.606+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:29:45.653+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:29:45.653+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:29:45.669+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:29:47.247+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: vam
+2025-01-23T16:29:47.669+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: vamla
+2025-01-23T16:29:51.809+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:29:51.809+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:29:51.809+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:29:51.825+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:29:51.825+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:29:51.825+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:29:52.466+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: vi
+2025-01-23T16:29:52.466+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : matched products: 1
+2025-01-23T16:29:55.010+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: v
+2025-01-23T16:29:55.010+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : matched products: 1
+2025-01-23T16:29:56.713+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: vamle
+2025-01-23T16:29:56.776+05:30 ERROR 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : ATTENTION!!! No matched products found
+2025-01-23T16:29:59.700+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: vamle sofa
+2025-01-23T16:29:59.700+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : matched products: 1
+2025-01-23T16:30:01.310+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: vamle sof
+2025-01-23T16:30:01.310+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : matched products: 1
+2025-01-23T16:30:02.137+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: vamle
+2025-01-23T16:30:03.445+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: vamle
+2025-01-23T16:30:04.132+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: vaml
+2025-01-23T16:30:04.695+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: vam
+2025-01-23T16:30:05.148+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: va
+2025-01-23T16:30:05.617+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: v
+2025-01-23T16:30:05.991+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:30:05.991+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:30:05.991+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:30:05.991+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:30:05.991+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:30:05.991+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:30:09.007+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: vamle
+2025-01-23T16:30:18.204+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:30:18.220+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:30:18.298+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:30:18.595+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:30:18.595+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:30:18.595+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:30:20.719+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: mle
+2025-01-23T16:30:20.735+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : matched products: 1
+2025-01-23T16:30:22.964+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:30:22.964+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:30:22.964+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:30:23.246+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:30:23.246+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:30:23.277+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:30:28.624+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: e
+2025-01-23T16:30:29.108+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: ek
+2025-01-23T16:30:30.879+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: e
+2025-01-23T16:30:31.207+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:30:31.207+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:30:31.207+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:30:31.441+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:30:31.441+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:30:31.441+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:30:33.254+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: pr
+2025-01-23T16:30:34.491+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:30:34.491+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:30:34.491+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:30:34.725+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:30:34.725+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:30:34.725+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:30:38.291+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: vamla
+2025-01-23T16:30:40.735+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: vam
+2025-01-23T16:30:41.157+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-4] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: va
+2025-01-23T16:30:41.849+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: v
+2025-01-23T16:30:42.989+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:30:42.989+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:30:42.989+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-1] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:30:43.240+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:30:43.240+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:30:43.240+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:30:44.849+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: vim
+2025-01-23T16:30:44.849+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-8] c.r.p.controller.ProductController       : matched products: 1
+2025-01-23T16:30:47.291+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: v
+2025-01-23T16:30:47.728+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:30:47.728+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:30:47.728+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:30:47.963+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:30:47.978+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:30:48.010+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-7] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:30:51.113+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : Request received: Inside getProductsByName in ProductController, input query is: 3
+2025-01-23T16:30:51.113+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-9] c.r.p.controller.ProductController       : matched products: 1
+2025-01-23T16:30:52.586+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:30:52.601+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:30:52.601+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-10] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:30:52.883+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:30:52.883+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:30:52.883+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-3] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:34:38.787+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:34:38.787+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:34:38.803+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-2] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:35:25.666+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:35:25.666+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:35:25.666+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-5] c.r.p.controller.ProductController       : Products retrieved successfully
+2025-01-23T16:35:25.713+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Request received: Inside getAllProducts in ProductController
+2025-01-23T16:35:25.791+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Page No: 0 page Size: 10
+2025-01-23T16:35:25.791+05:30  INFO 10208 --- [productcatalog] [http-nio-8080-exec-6] c.r.p.controller.ProductController       : Products retrieved successfully
